@@ -12,16 +12,16 @@
     ?>
         <tr>
             <td>
-                <?=$client['idProduct']?>
+                <?=$product['idProduct']?>
             </td>
             <td>
-                <?=$client['name']?>
+                <?=$product['name']?>
             </td>
             <td>
-                <?=$client['price']?>
+                <?=$product['price']?>
             </td>
             <td>
-                <?=$client['description']?>
+                <?=$product['description']?>
             </td>
         </tr> 
     <?php   

@@ -43,7 +43,7 @@
                 $ClientController = new ClientController();
                 if(!isset($_GET['action']))
                 {
-                    $ClientController -> index();
+
                 }else
                 {
                     switch ($_REQUEST['action'])
@@ -71,18 +71,30 @@
             case 'product':
                 require_once('controllers/ProductController.php');
                 $ProductController = new ProductController();
-                if(!isset($GET['action']))   
+                if(!isset($_GET['action']))
                 {
-                    $ProductController -> index();
+
                 }else
                 {
                     switch($_REQUEST['action'])
                     {
+                        case 'home':
+                            $ProductController -> home();
+                            break;
+
                         case 'listProduct':
                             $ProductController -> listProducts();
                             break;
+
+                        default:
+                            # code...
+                            break;
                     }
-                } 
+                }
+                
+                break;
+
+             
         }
     }
 ?>

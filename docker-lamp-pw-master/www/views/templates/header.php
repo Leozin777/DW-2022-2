@@ -49,6 +49,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="?controller=product&action=listProducts">Listagem de produtos</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="?controller=site&action=home">Home</a>
+                    </li>
                 </ul>
             </nav>
             <section class="p-3 col-md-9">
