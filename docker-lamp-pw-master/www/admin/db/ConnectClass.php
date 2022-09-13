@@ -5,9 +5,9 @@
 
         public function openConnect()
         {
-            $servername = "localhost"; //localhost:3306
+            $servername = "db"; //localhost:3306
             $username = "root";
-            $password = "";
+            $password = "1q2w3e4r5t";
             $dbname = "pw_exemple";
 
             $this->conn = new mysqli($servername, $username, $password, $dbname);
