@@ -30,8 +30,12 @@
                     <li class="nav-item">
                         <a class="nav-link" href="?controller=main&action=index">Home</a>
                     </li>
+                <h2>Cliente</h2>
                     <li class="nav-item">
-                        <a class="nav-link" href="?controller=client&action=listClient">Lista clientes</a>
+                        <a class="nav-link" href="?controller=client&action=listClients">Lista clientes</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="?controller=client&action=insertClient">Cadastrar cliente</a>
                     </li>
                 </ul>
             </nav>

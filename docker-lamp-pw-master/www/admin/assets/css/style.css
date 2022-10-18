@@ -8,15 +8,16 @@ nav{
 }
 
 nav a:visited, nav a:link, nav a:hover, nav a:active{
-    color: #2a3f54;
     text-decoration: none;
 } 
 
 footer{
     background-color: #ededed;
     color: #2a3f54;
+    text-decoration: none;
 }
 
 a{
+    color: #2a3f54;
     text-decoration: none;
 }

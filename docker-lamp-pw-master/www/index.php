@@ -27,13 +27,13 @@
                             $SiteController -> about();
                             break;
 
-                        case 'product':
-                            $SiteController -> product();
-                            break;
-
                         case 'contact':
                             $SiteController -> contact();
                             break;
+                    
+                        case 'product':
+                            $SiteController -> product();
+                            break;      
                     }
                 }
                 break;
@@ -67,33 +67,6 @@
                 }
 
                 break;
-            
-            case 'product':
-                require_once('controllers/ProductController.php');
-                $ProductController = new ProductController();
-                if(!isset($_GET['action']))
-                {
-
-                }else
-                {
-                    switch($_REQUEST['action'])
-                    {
-                        case 'home':
-                            $ProductController -> home();
-                            break;
-
-                        case 'listProduct':
-                            $ProductController -> listProducts();
-                            break;
-
-                        default:
-                            # code...
-                            break;
-                    }
-                }
-                
-                break;
-
              
         }
     }

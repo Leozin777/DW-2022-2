@@ -16,17 +16,16 @@
                 if($password == $line['password'])
                 {
                     $_SESSION['user'] = $line;
-                    header('Location: index.php');
+                    header('Location: ?');
                 }else
                 {
-                    echo 'senha inválida';
+                    echo 'errou';
                 }
             }else
             {
-                echo 'usuário não existe';
+                echo 'não existe';
             }
         }
-
     }
 
 ?>
