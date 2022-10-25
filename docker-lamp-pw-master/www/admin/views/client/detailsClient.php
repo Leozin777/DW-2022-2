@@ -2,43 +2,42 @@
 <table class="table">
     <tr>
         <th>
-            Id Cliente
-        </th>
+            id Cliente
+        <th>
         <td>
-            <?=$arrayClient['idClient']?>
-        </td>
+            <?=$arrayClients['idClient']?>
+        <td>
     </tr>
     <tr>
         <th>
             Nome
-        </th>
+        <th>
         <td>
-            <?=$arrayClient['name']?>
-        </td>
+            <?=$arrayClients['name']?>
+        <td>
     </tr>
     <tr>
         <th>
             Email
-        </th>
+        <th>
         <td>
-            <?=$arrayClient['email']?>
-        </td>
+            <?=$arrayClients['email']?>
+        <td>
     </tr>
     <tr>
         <th>
             Telefone
-        </th>
+        <th>
         <td>
-            <?=$arrayClient['phone']?>
-        </td>
-    </tr>    
+            <?=$arrayClients['phone']?>
+        <td>
+    </tr>
     <tr>
         <th>
             Endereço
-        </th>
+        <th>
         <td>
-            <?=$arrayClient['address']?>
-        </td>
-    </tr>    
-
+            <?=$arrayClients['address']?>
+        <td>
+    </tr>
 </table>
